@@ -22,7 +22,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="flex min-h-screen items-center justify-center bg-white dark:bg-black px-10 md:px-0">
-        <main className="w-full md:w-[50vw] flex flex-col items-start justify-center gap-0 leading-none overflow-visible">
+        <main className="w-full md:w-[80vw] flex flex-col items-start justify-center gap-0 leading-none overflow-visible">
           <div>
             <h1 className="text-[clamp(2.5rem,11vw,10rem)] md:text-[clamp(4rem,12vw,10rem)] font-black tracking-tighter text-foreground uppercase select-none">
               COLUMBIA
